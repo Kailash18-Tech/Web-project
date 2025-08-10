@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Juice Landing Page</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <div class="container" id="container">
+    <nav>
+      <ul>
+  <li class="navigation"><a href="home.html">Home</a></li>
+  <li class="navigation"><a href="flavour.html">Flavour</a></li>
+  <li class="navigation"><a href="about.html">About</a></li>
+  <li class="shop"><a href="shop.html">Shop online</a></li>
+</ul>
+
+    </nav>
+ <div class="page-name"><h1>JuiceLand</h1></div>
+    <div class="content">
+      <div class="info">
+        <h2 id="juice-title">Orange Juice</h2>
+        <p id="juice-desc">
+          A refreshing juice made from fresh oranges, rich in vitamin C and perfect for a sunny day.
+        </p>
+      </div>
+      
+      <div class="bottle">
+        <img id="main-bottle" src="orange.png" alt="Juice Bottle" height="400px"/>
+      </div>
+    </div>
+
+    <div class="bottle-buttons">
+      <img src="orangenobg.png" onclick="changeJuice('orange')"width="100px" />
+      <img src="plumnobg.png" onclick="changeJuice('plum')" />
+      <img src="kiwinobg.png" onclick="changeJuice('kiwi')" />
+      <img src="strawberrynobg.png" onclick="changeJuice('strawberry')" />
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
